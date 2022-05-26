@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <body onLoad="javascript: showList()">
+        <h1>Votre liste de courses</h1>
+        <h3 id='nombreProduits'></h3>
+        <input type="text" id="val1" name="val1"></input>
+        <button class='add' onClick="addItem();">+ Ajouter un produit</button>
+        <button class='clear' onClick="clearList();">Vider ma liste de courses</button>
+      
+        <div id='superList'></div>
+      
+    </body>
+</body>
+</html>
